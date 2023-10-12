@@ -2,7 +2,7 @@
   "chips": [
     {
       "name": "Auto-Heal",
-      "level": "0",
+      "level": 0,
       "cost": 4,
       "count": 1
     }
