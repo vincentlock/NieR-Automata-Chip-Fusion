@@ -49,7 +49,7 @@ VALID_CHIP_NAMES = set([
 ])
 
 
-def extractChipInfo(filename):
+def ExtractChipInfo(filename):
     try:
         with open(filename, 'r') as file:
             # content = file.read()
