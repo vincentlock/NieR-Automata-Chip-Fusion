@@ -1,5 +1,19 @@
 import json
 
+MIN_LEVEL, MAX_LEVEL = 0, 8
+
+CHIP_COST_MINIMUMS = {
+    0: 4,
+    1: 5,
+    2: 6,
+    3: 7,
+    4: 9,
+    5: 11,
+    6: 14,
+    7: 17,
+    8: 21
+}
+
 VALID_CHIP_NAMES = set([
     "Charge-Attack",
     "Counter",
