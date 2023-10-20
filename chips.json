@@ -4,7 +4,37 @@
       "name": "Auto-Heal",
       "level": 0,
       "cost": 4,
-      "count": 1
+      "count": 8
+    },
+    {
+      "name": "Auto-Heal",
+      "level": 0,
+      "cost": 5,
+      "count": 16
+    },
+    {
+      "name": "Auto-Heal",
+      "level": 0,
+      "cost": 6,
+      "count": 96
+    },
+    {
+      "name": "Auto-Heal",
+      "level": 0,
+      "cost": 7,
+      "count": 96
+    },
+    {
+      "name": "Auto-Heal",
+      "level": 0,
+      "cost": 8,
+      "count": 16
+    },
+    {
+      "name": "Auto-Heal",
+      "level": 0,
+      "cost": 9,
+      "count": 8
     }
   ]
 }
