@@ -18,9 +18,7 @@ for item in data:
     if CHIP_COST_MINIMUMS[item["level"]] > item["cost"]:
         raise Exception("Chip cost isn't valid")
 
-    # error check to make sure that the chip name is valid
-    # make sure the count is valid (probably <= 99)
-    # make sure that the minimum chip values is valid (max doesn't matter since the rec will be to sell anyway)
+    chips[item["name"]][item["level"]][item["cost"]] += item["count"]
 
 
 # iterate over each chip name
